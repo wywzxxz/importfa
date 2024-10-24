@@ -1,0 +1,4 @@
+__pycache__
+NO_GIT_*
+/dist
+/importfa.egg-info
