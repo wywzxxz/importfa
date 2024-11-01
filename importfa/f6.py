@@ -1,5 +1,3 @@
-import os
-import sys
+from . import importfa_set
 
-fa = os.path.abspath("/".join([sys.argv[0] + "/.."] + [".."] * 6))
-sys.path.append(fa)
+importfa_set(6)
